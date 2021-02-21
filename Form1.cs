@@ -120,5 +120,10 @@ namespace WindowsFormsApp1
         {
             m_db.ComputeChecksum(OnUpdate, OnChecksumsComputed);
         }
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

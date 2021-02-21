@@ -26,7 +26,7 @@ namespace WindowsFormsApp1
         {
 			//m_dataSet = new DataSet();
 			string appDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-			appDataFolder = Path.Combine(appDataFolder, "SOPaste");
+			appDataFolder = Path.Combine(appDataFolder, "FilesSearch");
 			if (!Directory.Exists(appDataFolder))
 			{
 				Directory.CreateDirectory(appDataFolder);
